@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,13 @@
 		F68A8D0629895F1D0079A3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D0429895F1D0079A3F5 /* Main.storyboard */; };
 		F68A8D0829895F240079A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D0729895F240079A3F5 /* Assets.xcassets */; };
 		F68A8D0B29895F240079A3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D0929895F240079A3F5 /* LaunchScreen.storyboard */; };
+		F68A8D1A2989632C0079A3F5 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D132989632C0079A3F5 /* A.wav */; };
+		F68A8D1B2989632C0079A3F5 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D142989632C0079A3F5 /* C.wav */; };
+		F68A8D1C2989632C0079A3F5 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D152989632C0079A3F5 /* B.wav */; };
+		F68A8D1D2989632C0079A3F5 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D162989632C0079A3F5 /* F.wav */; };
+		F68A8D1E2989632C0079A3F5 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D172989632C0079A3F5 /* G.wav */; };
+		F68A8D1F2989632C0079A3F5 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D182989632C0079A3F5 /* E.wav */; };
+		F68A8D202989632C0079A3F5 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = F68A8D192989632C0079A3F5 /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		F68A8D0729895F240079A3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68A8D0A29895F240079A3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68A8D0C29895F240079A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68A8D132989632C0079A3F5 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		F68A8D142989632C0079A3F5 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		F68A8D152989632C0079A3F5 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		F68A8D162989632C0079A3F5 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		F68A8D172989632C0079A3F5 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		F68A8D182989632C0079A3F5 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		F68A8D192989632C0079A3F5 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				F68A8CFD29895F1D0079A3F5 /* Xylophone (storyboard) */,
+				F68A8D122989632C0079A3F5 /* Sounds */,
 				F68A8CFC29895F1D0079A3F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +80,20 @@
 				F68A8D0C29895F240079A3F5 /* Info.plist */,
 			);
 			path = "Xylophone (storyboard)";
+			sourceTree = "<group>";
+		};
+		F68A8D122989632C0079A3F5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F68A8D142989632C0079A3F5 /* C.wav */,
+				F68A8D192989632C0079A3F5 /* D.wav */,
+				F68A8D182989632C0079A3F5 /* E.wav */,
+				F68A8D162989632C0079A3F5 /* F.wav */,
+				F68A8D172989632C0079A3F5 /* G.wav */,
+				F68A8D132989632C0079A3F5 /* A.wav */,
+				F68A8D152989632C0079A3F5 /* B.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +132,7 @@
 				};
 			};
 			buildConfigurationList = F68A8CF629895F1D0079A3F5 /* Build configuration list for PBXProject "Xylophone (storyboard)" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68A8D1E2989632C0079A3F5 /* G.wav in Resources */,
 				F68A8D0B29895F240079A3F5 /* LaunchScreen.storyboard in Resources */,
+				F68A8D1D2989632C0079A3F5 /* F.wav in Resources */,
 				F68A8D0829895F240079A3F5 /* Assets.xcassets in Resources */,
+				F68A8D1A2989632C0079A3F5 /* A.wav in Resources */,
+				F68A8D1C2989632C0079A3F5 /* B.wav in Resources */,
+				F68A8D1F2989632C0079A3F5 /* E.wav in Resources */,
+				F68A8D202989632C0079A3F5 /* D.wav in Resources */,
 				F68A8D0629895F1D0079A3F5 /* Main.storyboard in Resources */,
+				F68A8D1B2989632C0079A3F5 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +329,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +338,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.etdevios.Xylophone--storyboard-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +360,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +369,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.etdevios.Xylophone--storyboard-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
