@@ -10,9 +10,9 @@ import AVFoundation
 final class AudioPlayer {
     private var audioPlayer: AVAudioPlayer?
     
-    func playSound() {
+    func playSound(sound: String ) {
         guard let url = Bundle.main.url(
-            forResource: "C",
+            forResource: sound,
             withExtension: "wav"
         ) else { return }
         
